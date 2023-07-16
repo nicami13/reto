@@ -1,0 +1,43 @@
+{
+    "data": {
+        "id": "435432432",
+        "nombre": "apolo",
+        "salones": [
+            {
+                "ids": "34234",
+                "nom": "dsfsd",
+                "trainer": {
+                    "id": "455354324234",
+                    "nombre": "miguel",
+                    "email": "fdgsdfsd",
+                    "tel": "543535",
+                    "tipo": "Trainer"
+                },
+                "ma": []
+            },
+            {
+                "ids": "423423",
+                "nom": "fsdsf",
+                "trainer": {
+                    "id": "3231312",
+                    "nombre": "jholver",
+                    "email": "fsadfads",
+                    "tel": "5646342",
+                    "tipo": "Trainer"
+                },
+                "ma": [
+                    {
+                        "idm": "32132",
+                        "nomm": "dasda",
+                        "marca": "3442"
+                    },
+                    {
+                        "idm": "dasdas",
+                        "nomm": "4323",
+                        "marca": "fdsfs"
+                    }
+                ]
+            }
+        ]
+    }
+}

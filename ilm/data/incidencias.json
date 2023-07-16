@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "data": [
+                {
+                    "trainer": "",
+                    "categoria": "",
+                    "area": {
+                        "noma": "",
+                        "ida": ""
+                    },
+                    "salon": {
+                        "s1": "",
+                        "s2": "",
+                        "s3": ""
+                    },
+                    "descripcion": "",
+                    "maquina": {
+                        "m1": "",
+                        "m2": "",
+                        "m3": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+import os
+import getpass
+import trainer
+import areas
+import inventario
+import incidentecias
+
+os.system("clear")
+print('+','-'*55,'+')
+print("|{:^12}{}{:^25}|".format(' ','INGRESO MODERADOR',' '))
+print('+','-'*55,'+')
+
+user = input('Usuario: ')
+contraseña = getpass.getpass('Ingresa tu contraseña: ')
+
+os.system('clear')
+
+if user == '1097488722' and contraseña == 'Camilo01':
+    isActivate = True
+    opcion = 0
+
+    while isActivate:
+        os.system("clear")
+        print("╔═══════════════════════════════════╗")
+        print("║            MENÚ CAMPUS <3         ║")
+        print("╠═══════════════════════════════════╣")
+        print("║ 1.INGRESO DE USUARIOS             ║")
+        print("║═══════════════════════════════════║")
+        print("║ 2.INGRESO DE AREAS                ║")
+        print("║═══════════════════════════════════║")
+        print("║ 3.INVENTARIO                      ║")
+        print("║═══════════════════════════════════║")
+        print("║ 4.INCIDENTES                      ║")
+        print("║═══════════════════════════════════║")
+        print("║ 0.SALIR                           ║")
+        print("╚═══════════════════════════════════╝")
+        opcion=int(input(':'))
+        if(opcion==1):
+            os.system('clear')
+            trainer.cargar_persona()
+            trainer.mainMenu()
+            
+        if(opcion==2):
+           os.system('clear')
+           areas.cargar_area()
+           areas.cargar_persona()
+           areas.mainMenu()
+        if(opcion==3):
+            inventario.cargar_machine()
+            inventario.mainMenu()
+        if(opcion==4):
+             os.system('clear')
+             incidentecias.cargar_incidencias()
+             incidentecias.mainMenu()    
+else:
+    os.system('clear')
+    print('contraseña invalida')
+           
+
+
